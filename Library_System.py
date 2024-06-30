@@ -23,7 +23,7 @@ class Library:
             print(f"The book {i+1} in the Library is {self.books[i]}.")
 
 
-library_1 = Library(3,['Harry Potter', 'Hunger Games', 'Lord of the Rings'])
+library_1 = Library(3, ['Harry Potter', 'Hunger Games', 'Lord of the Rings'])
 while True:
     print("\t\tCHOOSE WHAT YOU WANT TO DO:")
     print("""1. Show Details            2. Add Book
@@ -42,5 +42,3 @@ while True:
             library_1.if_no_of_books_equals_books()
         case 4:
             break
-  
-
